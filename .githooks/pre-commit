@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo "Running flake8..."
+
+if ! flake8 .; then
+    echo "flake8 found errors. Commit cancelled."
+    exit 1
+fi
+
+echo "flake8 passed."
