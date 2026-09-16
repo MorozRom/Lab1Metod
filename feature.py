@@ -1,1 +1,1 @@
-print(It is a feature part)
+print('It is a feature part')
